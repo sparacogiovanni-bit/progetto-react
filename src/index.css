@@ -1,12 +1,20 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
+
+/* TITOLO */
 
 .main-title {
   color: blue;
   font-size: 40px;
 }
+
+/* LABEL */
 
 .input-label {
   display: block;
@@ -15,8 +23,69 @@ body {
   font-weight: bold;
 }
 
+/* INPUT */
+
 .text-input {
   font-size: 20px;
   padding: 10px;
   border-radius: 8px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+  z-index: 1000;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 50px;
+  color: darkblue;
+}
+
+/* LISTA */
+
+.name-list {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.name-list li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* CONTAINER */
+.container {
+  padding: 50px 30px;
 }
