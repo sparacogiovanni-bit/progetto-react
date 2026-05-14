@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import List from "./components/List";
+import Counter from "./components/Counter";
+import Form from "./components/Form";
 
 function App() {
 
@@ -39,6 +41,10 @@ function App() {
         </h2>
 
         <List names={names} />
+
+        <Counter />
+
+        <Form />
 
       </div>
     </>

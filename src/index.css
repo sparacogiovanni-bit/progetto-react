@@ -88,4 +88,60 @@ body,
 /* CONTAINER */
 .container {
   padding: 50px 30px;
+  margin-top: 80px;
+}
+
+
+/* COUNTER */
+.counter {
+  margin-top: 40px;
+}
+
+.counter h2 {
+  margin-bottom: 20px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.counter button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* FORM */
+
+.form-container {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 350px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 300px;
+  background-color: #f5f5f5;
 }
