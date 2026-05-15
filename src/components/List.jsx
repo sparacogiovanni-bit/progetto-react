@@ -1,11 +1,19 @@
-function List(props) {
+function List({ children }) {
   return (
     <ul className="name-list">
-      {props.names.map((name, index) => (
-        <li key={index}>{name}</li>
-      ))}
+    {children}
     </ul>
-  )
+  );
 }
 
-export default List
+function ListItem({ children }) {
+  return (
+    <li>
+    {children}
+    </li>
+  );
+}
+
+List.Item = ListItem;
+
+export default List;
