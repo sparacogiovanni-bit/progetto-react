@@ -180,3 +180,26 @@ body,
   border-radius: 10px;
   background-color: #f3f3f3;
 }
+
+/* POSTS */
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.post-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.post-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}

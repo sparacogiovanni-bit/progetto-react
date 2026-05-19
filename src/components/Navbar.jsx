@@ -1,17 +1,26 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
+
   return (
     <nav className="navbar">
+
       <ul className="nav-list">
+
         <li>
-          <a href="#">Home</a>
+          <Link to="/">
+            Home
+          </Link>
         </li>
 
         <li>
-          <a href="#">Contatti</a>
+          <Link to="/posts">
+            Posts
+          </Link>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
